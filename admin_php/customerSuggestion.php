@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../admin_css/commonAdmincss.css">
+    <link rel="stylesheet" href="../admin_css/customerSuggestion.css">
+</head>
+<body>
+    <!-- Header -->
+    <?php
+    include 'adminHeader.php';
+    ?>
+
+    <!-- content -->
+    <div class="parent" id="csParent1">
+        <h3 style="color: rgb(250, 101, 101);">CUSTOMER SUGGESTIONS</h3>
+        <div class="pDiv" style="height: 3px; width:auto; background-color: rgb(250, 101, 101);"></div>
+        <div class="pDiv2" style="height: 1px; width:auto; background-color: rgb(227,233,227);"></div>
+        <div class="pDiv2" style="height: 1px; width:auto; background-color: rgb(227,233,227);"></div>
+
+        <!-- <hr>
+        <hr> -->
+    
+     <!-- table database div -->
+     <div class="divFist tble">
+        <!-- <p class="fist" style="background-color: rgb(227, 233, 227);">Manage Categories</p> -->
+        <table border="1">
+            <tr>
+                <th>Suggestion id</th>
+                <th>Sender Name</th>
+                <th>Email</th>
+                <th>Phone No.</th>
+                <th>Subject</th>
+                <th>Suggestion</th>
+                <th>Description</th>
+                <th>Date</th>
+            </tr>
+        </table>
+     </div>
+     </div>
+
+    <!-- Footer -->
+    <?php
+    include 'adminFooter.php';
+    ?>
+    
+</body>
+</html>

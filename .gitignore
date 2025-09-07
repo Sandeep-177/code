@@ -1,0 +1,33 @@
+# =========================
+# PHP + MySQL Project (Render + Aiven)
+# =========================
+
+# Ignore environment variables (keep secrets out of GitHub)
+.env
+
+# Ignore SSL certificates (Aiven CA.pem etc.)
+*.pem
+*.crt
+*.key
+
+# Ignore SQL dump files
+*.sql
+*.sqlite
+
+# Ignore system/OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore Composer dependencies (can be reinstalled with composer install)
+vendor/
+
+# Ignore logs and cache
+*.log
+cache/
+storage/

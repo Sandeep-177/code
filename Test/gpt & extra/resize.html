@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Tab Size</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .size {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Browser Tab Size</h1>
+    <div class="size" id="size">Width: 0, Height: 0</div>
+
+    <script>
+        function updateSize() {
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+            document.getElementById('size').textContent = `Width: ${width}, Height: ${height}`;
+        }
+
+        // Update size on page load and window resize
+        window.addEventListener('resize', updateSize);
+        updateSize();
+    </script>
+</body>
+</html>

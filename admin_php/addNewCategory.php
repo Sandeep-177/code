@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../admin_css/commonAdmincss.css">
+    <link rel="stylesheet" href="../admin_css/addNewCategory.css">
+</head>
+<body>
+    <!-- Header -->
+    <?php
+    include 'adminHeader.php';
+    ?>
+
+    <!-- content -->
+     <div class="divFist">
+     <p class="fist" style="background-color: rgb(215, 248, 215); color: rgb(108, 143, 108);">Add New Category</p>
+     <div>
+        <form id="orders">
+        <label for="locEdt">Enter Category Name:</label>
+        <input type="text" name="locEdt" class="locedt" id="input1">
+        <label for="locEdt2">Category Image:</label>
+        <input type="file" name="locEdt2" class="locedt" id="input2">
+        <div>
+        <button id="add" class="btn">ADD</button>
+        <button id="reset" class="btn">RESET</button>
+        </div>
+        </form>
+     </div>
+     <p class="fist" style="background-color: rgb(227, 233, 227); color: rgb(130, 136, 130);"><b>Note: </b> Please note that added categories will be seeen by users and vendors.</p>
+
+     </div>
+     <!-- table database div -->
+     <!-- <div class="divFist"> -->
+    <div class="parent">
+        <p class="fist" style="background-color: rgb(227, 233, 227);">Manage Categories</p>
+        <div class=" tble">
+        <table border="2" style=" border-collapse:collapse; border-color: transparent;">
+            <tr>
+                <th>Category Id</th>
+                <th>Category</th>
+                <th>Image</th>
+                <th>Status</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </table>
+     </div>
+     </div>
+
+    <!-- Footer -->
+    <?php
+    include 'adminFooter.php';
+    ?>
+    
+</body>
+</html>

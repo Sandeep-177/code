@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Note Shadow</title>
+    <style>
+        body{
+            margin: 50px;
+        }
+        .card {
+            width: 200px;
+            height: 200px;
+            background-color: #ffeb3b; /* Yellow background */
+            color: #000; /* Black text */
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 200px;
+            position: relative;
+
+            /* Narrow-to-wide shadow */
+            box-shadow: 
+                -5px 5px 5px rgba(0, 0, 0, 0.2), 
+                -15px 20px 20px rgb(221, 198, 198);
+            /* box-shadow: 
+                -5px 5px 5px rgba(0, 0, 0, 0.2), 
+                -15px 20px 20px rgba(0, 0, 0, 0.15); */
+            
+            transform: rotate(-2deg); /* Slight rotation for effect */
+            border-radius: 5px; /* Optional rounded corners */
+        }
+    </style>
+</head>
+<body>
+    <div class="card">Website Goals</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.hii{
+    margin: 50px auto;
+    height: 200px;
+    width: 200px;
+    background-image: url('plum_2.png');
+    background-position: center;
+    position: relative;
+}
+.hii:hover{
+    transform: scale(1.2);
+    
+    /* filter: blur(0.8px); */
+    p{
+        filter: blur(0px);
+    }
+}
+.hii p{
+    color: red;
+    position: absolute;
+    z-index: -1;
+    filter: blur(2px);
+}

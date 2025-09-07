@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Service Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .navbar {
+            background-color: #007bff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #007bff;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .hero button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        .services {
+            padding: 20px;
+            text-align: center;
+        }
+        .services h2 {
+            margin-bottom: 20px;
+        }
+        .service-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .service-item {
+            background: #fff;
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 30%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .service-item img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        .why-choose-us {
+            padding: 20px;
+            background: #f9f9f9;
+            text-align: center;
+        }
+        .why-choose-us h2 {
+            margin-bottom: 20px;
+        }
+        .why-choose-us ul {
+            list-style: none;
+            padding: 0;
+        }
+        .why-choose-us li {
+            margin: 10px 0;
+        }
+        .testimonials {
+            padding: 20px;
+            background: #fff;
+            text-align: center;
+        }
+        .testimonials h2 {
+            margin-bottom: 20px;
+        }
+        .testimonial-item {
+            background: #f9f9f9;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .testimonial-item p {
+            font-style: italic;
+        }
+        .testimonial-item strong {
+            display: block;
+            margin-top: 10px;
+        }
+        .contact-section {
+            padding: 20px;
+            text-align: center;
+        }
+        .contact-section h2 {
+            margin-bottom: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">Home Services</div>
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#services">Services</a>
+            <a href="#why-choose-us">Why Choose Us</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Reliable Home Services at Your Doorstep</h1>
+        <p>We provide top-notch AC repair, plumbing, painting, and more. Book a service today!</p>
+        <button>Book Now</button>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <img src="ac-repair-icon.png" alt="AC Repair">
+                <h3>AC Repair</h3>
+                <p>Expert technicians to keep your AC running smoothly.</p>
+            </div>
+            <div class="service-item">
+                <img src="plumbing-icon.png" alt="Plumbing">
+                <h3>Plumbing</h3>
+                <p>Reliable plumbing solutions for your home or office.</p>
+            </div>
+            <div class="service-item">
+                <img src="painting-icon.png" alt="Painting">
+                <h3>Painting</h3>
+                <p>Professional painting services to beautify your space.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Why Choose Us Section -->
+    <div id="why-choose-us" class="why-choose-us">
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li>Experienced professionals</li>
+            <li>Affordable and transparent pricing</li>
+            <li>Quick and reliable service</li>
+            <li>Wide range of home services</li>
+        </ul>
+    </div>
+
+    <!-- Testimonials Section -->
+    <div id="testimonials" class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-item">
+            <p>"Fantastic service! My AC was fixed quickly and efficiently. Highly recommend!"</p>
+            <strong>- Rahul S.</strong>
+        </div>
+        <div class="testimonial-item">
+            <p>"Professional and affordable plumbing work. Very satisfied with the results!"</p>
+            <strong>- Priya K.</strong>
+        </div>
+        <div class="testimonial-item">
+            <p>"The painting service transformed my home. The team was polite and skilled!"</p>
+            <strong>- Ankit T.</strong>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:info@homeservices.com">info@homeservices.com</a></p>
+        <p>Phone: +1 (123) 456-7890</p>
+        <p>Address: 123 Home Services Lane, Suite 101, Cityville, ST 12345</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2025 Home Services. All rights reserved.</p>
+    </div>
+</body>
+</html>

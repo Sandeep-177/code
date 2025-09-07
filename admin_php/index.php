@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../admin_css/commonAdmincss.css">
+    <link rel="stylesheet" href="../admin_css/index.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <?php
+    include 'adminHeader.php';
+    ?>
+
+    <!-- Content -->
+    <div>
+        <h3 style="color: rgb(250, 101, 101);">DASHBOARD</h3>
+        <div class="pDiv" style="height: 3px; width:auto; background-color: rgb(250, 101, 101);"></div>
+        <p class="firstP" style="background-color: rgb(215, 248, 215); color: rgb(108, 143, 108);">the information provided here by the admin, will also be accessible by the vendors and the customers</p>
+        <div class="fourDiv">
+            <div id="frdv1" class="fourChild">Location</div>
+            <div id="frdv2" class="fourChild">Category</div>
+            <div id="frdv3" class="fourChild">Plans</div>
+            <div id="frdv4" class="fourChild">Visiting charges</div>
+        </div>
+    </div>
+
+    <!-- table -->
+     <div class="parent">
+     <div class="tble dj">
+        <table border="2" style="border-collapse:collapse">
+            <!-- <tr>
+                <th>Request No.</th>
+                <th>Shop name</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th>Category</th>
+                <th>Location</th>
+                <th>Status</th>
+                <th>Register</th>
+            </tr> -->
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+            <?php
+// $conn=mysqli_connect('localhost','root','','student') or die("connection failed");
+$conn=mysqli_connect('localhost','root','','hello') or die("connection failed");
+// $data="select * from customer";
+$data="select * from student";
+$receive=mysqli_query($conn,$data) or die("query failed");
+$counts=mysqli_num_rows($receive);
+if ($counts>0) {
+    while ($rows=mysqli_fetch_assoc($receive)) {
+        # code...
+?>
+            <!-- <tr>
+                <td><?php echo $rows['id'] ?></td>
+                <td><?php echo $rows['shop_name'] ?></td>
+                <td><?php echo $rows['name'] ?></td>
+                <td><?php echo $rows['email'] ?></td>
+                <td><?php echo $rows['address'] ?></td>
+                <td><?php echo $rows['category'] ?></td>
+                <td><?php echo $rows['location'] ?></td>
+                <td><?php echo $rows['status'] ?></td>
+                <td><?php echo $rows['register'] ?></td>
+            </tr> -->
+            <tr>
+                <td><?php echo $rows['id'] ?></td>
+                <td><?php echo $rows['sname'] ?></td>
+                <td><?php echo $rows['semail'] ?></td>
+            </tr>
+            <?php } ?>
+            <?php } ?>
+        </table>
+     </div>
+     </div>
+
+    <!-- Footer -->
+     <?php
+     include 'adminFooter.php';
+     ?>
+</body>
+
+</html>
