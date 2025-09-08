@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order</title>
-    <link rel="stylesheet" href="/code/customer_css/styles.css">
-    <link rel="stylesheet" href="/code/customer_css/order.css">
+    <link rel="stylesheet" href="customer_css/styles.css">
+    <link rel="stylesheet" href="customer_css/order.css">
 </head>
 
 <body>
@@ -99,7 +99,7 @@
     <?php
     include 'footer.php';
     ?>
-    <script src="/code/customer_php/order.js"></script>
+    <script src="customer_php/order.js"></script>
 </body>
 
 </html>

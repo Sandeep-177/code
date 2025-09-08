@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order</title>
-    <link rel="stylesheet" href="/code/customer_css/styles.css">
-    <link rel="stylesheet" href="/code/customer_css/category.css">
+    <link rel="stylesheet" href="../customer_css/styles.css">
+    <link rel="stylesheet" href="../customer_css/category.css">
 </head>
 
 <body>
@@ -19,14 +19,14 @@
     <section id="category">
         <h2>SUB CATEGORY</h2>
         <div class="category-cards">
-        <div class="catCard" style=" background-image: url('/code/images/wedding-photography.jpg'); background-size: cover;">
+        <div class="catCard" style=" background-image: url('../images/wedding-photography.jpg'); background-size: cover;">
             <div class="tryi">
                 <h3>Wedding Photography</h3>
                 <p>Get plumbing issues fixed quickly and efficiently.</p>
                 <button class="catButton">Book Now</button>
             </div>
         </div>
-        <div class="catCard" style=" background-image: url('/code/images/event-photography.webp'); background-size: cover;">
+        <div class="catCard" style=" background-image: url('../images/event-photography.webp'); background-size: cover;">
             <div class="tryi">
                 <h3>Event Photography</h3>
                 <p>Get plumbing issues fixed quickly and efficiently.</p>

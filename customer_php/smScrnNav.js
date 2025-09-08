@@ -7,12 +7,12 @@ setTimeout(() => {
             console.log(lnkCls);
             if (lnkCls.classList.contains("active")) {
             lnkCls.classList.remove("active");
-              linkImg.innerHTML="<img src='/code/icon/bars-solid.svg' alt='no bar image'>";
+              linkImg.innerHTML="<img src='icon/bars-solid.svg' alt='no bar image'>";
               document.body.style.overflowX = "hidden";
                 
             } else {
             lnkCls.classList.add("active");
-              linkImg.innerHTML="<img src='/code/icon/xmark-solid.svg' alt='no xmark image'>";
+              linkImg.innerHTML="<img src='icon/xmark-solid.svg' alt='no xmark image'>";
               document.body.style.overflowX = "hidden"; 
             }
               console.log("exit img test function");

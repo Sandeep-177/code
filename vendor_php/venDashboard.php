@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up</title>
-    <link rel="stylesheet" href="/code/vendor_css/common.css">
-    <link rel="stylesheet" href="/code/vendor_css/venDashboard.css">
+    <link rel="stylesheet" href="../vendor_css/common.css">
+    <link rel="stylesheet" href="../vendor_css/venDashboard.css">
     <!-- <link rel="stylesheet" href="../customer_css/styles.css"> -->
 </head>
 

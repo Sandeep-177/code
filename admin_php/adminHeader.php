@@ -12,12 +12,12 @@
         <div class="nav-bar">
         <nav>
             <ul>
-                <li><a href="/code/admin_php/index.php">DASHBOARD</a></li>
-                <li><a href="/code/admin_php/addNewCategory.php">SERVICES</a></li>
-                <li><a href="/code/admin_php/registeredVendor.php">VENDORS</a></li>
-                <li><a href="/code/admin_php/customerOrders.php">CUSTOMER ORDERS</a></li>
-                <li><a href="/code/admin_php/customerSuggestion.php">SUGGESTIONS</a></li>
-                <li><a href="/code/admin_php/changePassword.php">CHANGE PASSWORD</a></li>
+                <li><a href="index.php">DASHBOARD</a></li>
+                <li><a href="addNewCategory.php">SERVICES</a></li>
+                <li><a href="registeredVendor.php">VENDORS</a></li>
+                <li><a href="customerOrders.php">CUSTOMER ORDERS</a></li>
+                <li><a href="customerSuggestion.php">SUGGESTIONS</a></li>
+                <li><a href="changePassword.php">CHANGE PASSWORD</a></li>
                 <li><a class="logout-btn" href="../index.php">LOGOUT</a></li>
                 <!-- <button class="logout-btn">Logout</button> -->
             </ul>
