@@ -4,7 +4,7 @@
         <div id="barImg" onclick="openSideBar()"><a id="barImg2" href="#"><img src="../icon/bars-solid.svg" alt="no bar image"></a></div>
         <nav id="headerNav">
             <ul id="abAfterblink">
-                        <li class="afterLnk" onclick="closeSideBar()"><a href="#" id="closeBar"><img src="../icon/xmark-solid.svg" alt="no bar image"></a>
+                        <li onclick="closeSideBar()"><a href="#" id="closeBar"><img src="../icon/xmark-solid.svg" alt="no bar image"></a>
                         </li>
                         <li class="afterLnk"><a href="/index.php" class="naviLink" data-target="0">Home</a>
                         </li>
@@ -17,4 +17,4 @@
                     </ul>
         </nav>
     </header>
-    <script src="customer_php/smScrnNav.js" defer></script>
+    <script src="/customer_php/smScrnNav.js" defer></script>
