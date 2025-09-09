@@ -1,9 +1,11 @@
     <!-- Header -->
     <header>
         <div class="logo">Smart Home<span style="color: brown;">Service</span></div>
-        <div id="barImg"><a id="barImg2" href="#"><img src="../icon/bars-solid.svg" alt="no bar image"></a></div>
+        <div id="barImg" onclick="openSideBar()"><a id="barImg2" href="#"><img src="../icon/bars-solid.svg" alt="no bar image"></a></div>
         <nav id="headerNav">
             <ul id="abAfterblink">
+                        <li class="afterLnk" onclick="closeSideBar()"><a href="#" id="closeBar"><img src="../icon/xmark-solid.svg" alt="no bar image"></a>
+                        </li>
                         <li class="afterLnk"><a href="/index.php" class="naviLink" data-target="0">Home</a>
                         </li>
                         <li class="afterLnk"><a href="/customer_php/category.php" class="naviLink"
