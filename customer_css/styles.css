@@ -429,14 +429,16 @@ footer ul img{
         height: auto;
         display: block;
       }
-    #closeBar{
+    /* #closeBar{
          width:30px;
         height:30px;
-    }
+    } */
     #closeBar img {
-        width: 100%;
+        /* width: 100%;
         height: auto;
-        display: block;
+        display: block; */
+        width:40px;
+        height:40px;
       }
     .smallScreenHeader{
         display:flex;
@@ -544,7 +546,11 @@ footer ul img{
     }
     
 }
-
+@media screen and (max-width:400px){
+    #abAfterblink{
+        width:100%;
+    }
+}
 @media screen and (min-width:1100px) {
     #prntn1{
         grid-template-columns: repeat(auto-fit,minmax(450px,1fr));
