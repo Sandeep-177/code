@@ -480,10 +480,10 @@ footer ul img{
     /* #abAfterblink.active {
     transform: translateX(0);
     } */
-    #headerNav.active ul{
+    .active{
         /* transform:translateX(0%); */
         display:flex;
-        transition: transform 0.3s ease-in-out;
+        /* transition: transform 0.3s ease-in-out; */
 
     }
     #headerNav ul li{
