@@ -25,9 +25,11 @@
 
     function openSideBar() {
       const openSnav=document.getElementById("abAfterblink");
-      openSnav.classList.remove("active");
+      openSnav.classList.add("active");
+      console.log("active class added");
     }
     function closeSideBar() {
       const openSnav=document.getElementById("abAfterblink");
-      openSnav.classList.add("active");
+      openSnav.classList.remove("active");
+      console.log("active class removed");
     }
